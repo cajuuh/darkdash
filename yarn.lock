@@ -172,6 +172,11 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/core@>=2.0.0":
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-9.1.2.tgz#30970d49dc3b53c0dc68cd75dbc2c96afc7fee62"
+  integrity sha512-nAqRl+5drAnZlBT7AgSo2JJubmPNrGCvhZ83dosPEUqJoLr69/lYipnF/iqKzYn5xo4MM1O27WIhSNDtDjBmzQ==
+
 "@angular/forms@8.0.2":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-8.0.2.tgz#2410c2ff85f67a20ce7a0190f947214d4f08e705"
@@ -197,6 +202,11 @@
   integrity sha512-iUoyhJ81jqvpmQI6Lu5NzRZR8azmnb2kX2FQ+LbwCvWQLfkLbTaa/Jl09/qN6KWpTsMogNQXVnjjgwoeaObvBw==
   dependencies:
     tslib "^1.9.0"
+
+"@angular/platform-browser@>=2.0.0":
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-9.1.2.tgz#ae52a0a9087e682e62c33722d7d7f81813cf499a"
+  integrity sha512-/3L4DdvnebvaJUurusaq8RJBFfr/SHWG6DMmV1VVpADxe8kjREyN0LdNDSkZgVf/QcUSwNEA6153iwcF92Otew==
 
 "@angular/router@8.0.2":
   version "8.0.2"
@@ -1942,6 +1952,14 @@ date-now@^0.1.4:
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
   integrity sha1-6vQ5/U1ISK105cx9vvIAZyueNFs=
 
+"daypilot-pro-angular@https://npm.daypilot.org/daypilot-pro-angular/trial/2019.3.4012.tar.gz":
+  version "2019.3.4012"
+  uid "997cc5f099e2b6676220d07c5371aa381b115014"
+  resolved "https://npm.daypilot.org/daypilot-pro-angular/trial/2019.3.4012.tar.gz#997cc5f099e2b6676220d07c5371aa381b115014"
+  dependencies:
+    "@angular/core" ">=2.0.0"
+    "@angular/platform-browser" ">=2.0.0"
+
 debug@*, debug@^4.1.0, debug@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
@@ -3171,9 +3189,9 @@ https-browserify@^1.0.0:
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
 https-proxy-agent@^2.2.1:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-2.2.2.tgz#271ea8e90f836ac9f119daccd39c19ff7dfb0793"
-  integrity sha512-c8Ndjc9Bkpfx/vCJueCPy0jlP4ccCCSNDp8xwCZzPjKJUm+B+u9WX2x98Qx4n1PiMNTWo3D7KK5ifNV/yJyRzg==
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-2.2.4.tgz#4ee7a737abd92678a293d9b34a1af4d0d08c787b"
+  integrity sha512-OmvfoQ53WLjtA9HeYP9RNrWMJzzAz1JGaSFr1nijg0PVR1JaD/xbJq1mdEIIlxGpXp9eSe/O2LgU9DJmTPd0Eg==
   dependencies:
     agent-base "^4.3.0"
     debug "^3.1.0"
